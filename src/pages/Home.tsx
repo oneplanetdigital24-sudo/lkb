@@ -118,54 +118,59 @@ const Home: React.FC = () => {
     },
     {
       id: 2,
-      category: 'Education',
-      title: 'Educational Scholarships Available',
-      description: 'Merit-based scholarships for undergraduate and postgraduate students with financial assistance.',
-      image: 'https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=400',
-      link: 'https://education.gov.in/scholarships-2024',
-      date: '1/12/2024',
-      views: '1.8k'
+      category: 'News Articles',
+      title: "Police Complaint Filed Against PM Modi Over Mahatma Gandhi Remarks",
+      description: "National Award-winning filmmaker Luit Kumar Barman files a police complaint in Guwahati after PM Modi’s remarks comparing Mahatma Gandhi to a film are deemed derogatory; police have initiated a preliminary investigation with no FIR yet.",
+      image: "https://images.openai.com/thumbnails/url/Um3D8nicu1mSUVJSUGylr5-al1xUWVCSmqJbkpRnoJdeXJJYkpmsl5yfq5-Zm5ieWmxfaAuUsXL0S7F0Tw72989MLS3KyCqvDI8MKC0oLQwvKXVzdK4q1HVJr4xw9MxKtjAxS40vdc31LAgy93cPzg0pDErNSXF0ClQrBgBW3ir-", // ET thumbnail 
+      link: "https://m.economictimes.com/news/elections/lok-sabha/india/police-complaint-filed-against-pm-modi-over-mahatma-gandhi-remarks/articleshow/110569755.cms",
+      date: "5/30/2024",
+      views: "—"
     },
+
+       {
+        id: 3,
+        category: 'News Articles',
+        title: "Activist Files FIR Against Nalbari DC Over Suspicious Law Degree",
+        description: "Social activist Luit Kumar Barman files an FIR against Nalbari DC Varnali Deka, alleging discrepancies in her 2021 LL.B degree from Goalpara Law College and links to the Gauhati University iUMS marksheet manipulation scam.",
+        image: "", // No image found
+        link: "https://www.pratidintime.com/guwahati-news-breaking-latest/activist-luit-kumar-barman-files-fir-against-nalbari-dc-varnali-deka",
+        date: "11/8/2024",
+        views: "—"
+      },
+
     {
-      id: 3,
-      category: 'Technology',
-      title: 'Digital Literacy Program',
-      description: 'Free computer training and digital skills development for senior citizens and rural communities.',
-      image: 'https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400',
-      link: 'https://digitalindia.gov.in/literacy-program',
-      date: '1/10/2024',
-      views: '1.5k'
-    },
+  id: 4,
+  category: 'News Articles',
+  title: "Nalbari DIPRO Refutes Allegations Made by Luit Kumar Barman",
+  description: "Nalbari District Information and Public Relations Officer Chumpi Chutia formally denies Luit Kumar Barman’s claims regarding alleged strong-room and EVM irregularities in the district administration.",
+  image: "", // No image found
+  link: "https://www.sentinelassam.com/north-east-india-news/assam-news/nalbari-district-information-and-public-relations-officer-chumpi-chutia-refutes-allegation-made-by-luit-kumar-barman",
+  date: "5/15/2024",
+  views: "—"
+},
+
     {
-      id: 4,
-      category: 'Infrastructure',
-      title: 'Infrastructure Development Update',
-      description: 'Progress report on road construction, bridge building, and public facility improvements.',
-      image: 'https://images.pexels.com/photos/3184394/pexels-photo-3184394.jpeg?auto=compress&cs=tinysrgb&w=400',
-      link: 'https://infrastructure.gov.in/development-update',
-      date: '1/8/2024',
-      views: '3.1k'
-    },
+  id: 5,
+  category: 'News Articles',
+  title: "Assam Complainant to Re-approach Court on NRC Updation Scam",
+  description: "Luit Kumar Barman, alleging a ₹155-crore money laundering scam during the NRC updation process, plans to re-approach a court with proper jurisdiction after a lower court dismisses his initial plea.",
+  image: "", // No image found
+  link: "https://ukhrultimes.com/assam-complainant-to-re-approach-court-on-nrc-updation-scam/",
+  date: "5/25/2023",
+  views: "—"
+},
+
     {
-      id: 5,
-      category: 'Environment',
-      title: 'Environmental Conservation Drive',
-      description: 'Community tree plantation program and waste management initiatives showing positive results.',
-      image: 'https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=400',
-      link: 'https://environment.gov.in/conservation-drive',
-      date: '1/5/2024',
-      views: '2.7k'
-    },
-    {
-      id: 6,
-      category: 'Employment',
-      title: 'Youth Employment Scheme',
-      description: 'Job creation program for youth with comprehensive skill development and training support.',
-      image: 'https://images.pexels.com/photos/3184432/pexels-photo-3184432.jpeg?auto=compress&cs=tinysrgb&w=400',
-      link: 'https://employment.gov.in/youth-scheme',
-      date: '1/3/2024',
-      views: '4.2k'
-    }
+  id: 6,
+  category: 'News Articles',
+  title: "Plaint Registered Against Hajela, Wipro & ISS in NRC Money-Laundering Case",
+  description: "Luit Kumar Barman has filed a plaint in the Kamrup (metro) CJM court against former NRC coordinator Prateek Hajela, Wipro Limited, and ISS, alleging money laundering amounting to ₹155 crores during the Assam NRC updation exercise.",
+  image: "", // No image found
+  link: "https://tehelka.com/assam-nrc-plaint-registered-against-hajela-wipro-and-iss/",
+  date: "5/16/2023",
+  views: "—"
+}
+
   ];
 
   const videoNews = [
